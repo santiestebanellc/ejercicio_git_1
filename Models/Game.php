@@ -46,11 +46,11 @@ class Game
 
     return $this;
   }
-  
+   
   /**
    * Get team #1 vs. Team #2
    *
-   * @return  Array
+   * @return  ArrayList
    */ 
   public function getTeams()
   {
@@ -71,6 +71,8 @@ class Game
     return $this;
   }
   function start(){
-    echo "game is starting";
+    echo "Bolsa Team 1 Team 2";
   }
+
+
 }
