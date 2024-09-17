@@ -91,5 +91,5 @@ class Player extends Person
 
         return $this;
     }
-
+        echo pepe;
 }
