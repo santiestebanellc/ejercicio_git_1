@@ -4,24 +4,12 @@ namespace App\Models;
 
 use Nette\Utils\Array;
 
-/**
- * Repr
- */
 class Game
 {
-/**
-   * field where game is played
-   *
-   * @var Field
-   */
-  private $field;
-  /**
-   * Team #1 vs. Team #2
-   *
-   * @var Array
-   */
-  private $teams;
 
+
+
+  var $s = "hello";
   var $a = 5;
   
   /**
@@ -44,7 +32,7 @@ class Game
   public function setField(Field $field)
   {
     $this->field = $field;
-
+    echo "123";
     return $this;
   }
    
@@ -76,7 +64,15 @@ class Game
   }
   
   function helloKitty():void{
-    echo "hello";
+
+    echo "hello kuromi";
+  }
+
+
+
+  function helloKuromi():void{
+    
+    echo "hello kuromi";
   }
 
 
