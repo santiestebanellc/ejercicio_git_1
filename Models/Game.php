@@ -22,6 +22,7 @@ class Game
    */
   private $teams;
 
+  var $a = 5;
   
   /**
    * Get field where game is played
@@ -73,6 +74,9 @@ class Game
   function start(){
     echo "Bolsa Team 1 Team 2";
   }
+
+
+
 
 
 }
