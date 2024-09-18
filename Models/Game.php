@@ -74,7 +74,10 @@ class Game
   function start(){
     echo "Bolsa Team 1 Team 2";
   }
-
+  
+  function helloKitty():void{
+    echo "hello";
+  }
 
 
 
