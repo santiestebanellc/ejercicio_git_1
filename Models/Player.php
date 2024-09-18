@@ -91,5 +91,14 @@ class Player extends Person
 
         return $this;
     }
-
+    
+    /**
+     * Implement passBall method
+     * 
+     */
+    public function passBall(): void //no devuelve nada
+    {
+        //return true;
+        echo "Passing ball";
+    }
 }
