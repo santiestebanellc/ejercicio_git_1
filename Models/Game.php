@@ -74,5 +74,10 @@ class Game
     echo "Bolsa Team 1 Team 2";
   }
 
+  var $testAkisha = 10000;
+
+  public function flashlight(): void {
+    echo "fiuuuuum";
+  }
 
 }
