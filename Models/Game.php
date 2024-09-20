@@ -21,6 +21,8 @@ class Game
    * @var Array
    */
   private $teams;
+  $holawawaw = 456;
+
 
   
   /**
@@ -74,6 +76,7 @@ class Game
     echo "Bolsa Team 1 Team 2";
   }
 
+  $hihuhu = "helolololo";
   var $testAkisha = 10000;
 
   public function flashlight(): void {
