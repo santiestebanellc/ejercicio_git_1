@@ -21,9 +21,6 @@ class Game
    * @var Array
    */
   private $teams;
-  $holawawaw = 456;
-
-
   
   /**
    * Get field where game is played
@@ -74,13 +71,6 @@ class Game
   }
   function start(){
     echo "Bolsa Team 1 Team 2";
-  }
-
-  $hihuhu = "helolololo";
-  var $testAkisha = 10000;
-
-  public function flashlight(): void {
-    echo "fiuuuuum";
   }
 
 }
